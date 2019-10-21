@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="{% static 'css/projects.css'%}">
+    <title>Projelerim</title>
+</head>
+<body>
+        {% include 'base_layout.html'%}
+        {% block content %}
+        {% endblock %}
+<div class="row">
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-1.jpg'%}">
+</div>
+<div class="title">
+<h1>PYAUTOGUI</h1>
+</div>
+<div class="aciklama">
+<p>Bu modül ile mouse hareketlerinizi, klavyenizi yönetebilir,ekran görüntüleri alabilir birçok işlemi otomatize edebilirsiniz.</p>
+<a href="https://github.com/Pablusha/Python-Projelerim" target="_blank"> <button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 2-->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-opencv.jpg'%}">
+</div>
+<div class="title">
+<h1>Filter for Computer Vision</h1>
+</div>
+<div class="aciklama">
+<p>Kullandığım kütüphaneler: <br>Numpy,OpenCV,Mathplotlib</p>
+<a href="https://github.com/Pablusha/Create-Filter-For-Computer-Vision" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 3-->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-opencv.jpg'%}">
+</div>
+<div class="title">
+<h1>Gaussian Blur</h1>
+</div>
+<div class="aciklama">
+<p>Kullandığım kütüphaneler: <br>Numpy,OpenCV,Mathplotlib</p>
+<a href="https://github.com/Pablusha/Gaussian-Blur" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-opencv.jpg'%}">
+</div>
+<div class="title">
+<h1>Canny Edge Detection</h1>
+</div>
+<div class="aciklama">
+<p>Kullandığım kütüphaneler: <br>Numpy,OpenCV,Mathplotlib</p>
+<a href="https://github.com/Pablusha/Canny-Edge-Detection" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 5-->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-opencv.jpg'%}">
+</div>
+<div class="title">
+<h1>Hough-Line Detection</h1>
+</div>
+<div class="aciklama">
+<p>Kullandığım kütüphaneler: <br>Numpy,OpenCV,Mathplotlib</p>
+<a href="https://github.com/Pablusha/Hough-Line-Detection" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 6-->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-opencv.jpg'%}">
+</div>
+<div class="title">
+<h1>Corner Detector</h1>
+</div>
+<div class="aciklama">
+<p>Kullandığım kütüphaneler: <br>Numpy,OpenCV,Mathplotlib</p>
+<a href="https://github.com/Pablusha/Corner-Detector" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-logo.jpg'%}">
+</div>
+<div class="title">
+<h1>IMDB Top 250</h1>
+</div>
+<div class="aciklama">
+<p>IMDB sitesinden Top 250 verilerini liste halinde alan uygulamam.</p>
+<a href="https://github.com/Pablusha/IMDB-Top-250" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-selenium.jpg'%}">
+</div>
+<div class="title">
+<h1>Instagram Auto Login</h1>
+</div>
+<div class="aciklama">
+<p>Selenium kütüphanesini kullandığım bir programdır.Bu program sayesinde Instagram'a otomatik olarak giriş yapabilirsiniz. <br>(Küçük ayarlamalar gerekebilir.)</p>
+<a href="https://github.com/Pablusha/Instagram-Auto-Login" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 9 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-selenium.jpg'%}">
+</div>
+<div class="title">
+<h1>Twitter Auto Login</h1>
+</div>
+<div class="aciklama">
+<p>Selenium kütüphanesini kullandığım bir programı daha size sunuyorum.Bu program sayesinde Twitter'a otomatik olarak giriş yapabilirsiniz.<br>(Küçük ayarlamalar gerekebilir.)</p>
+<a href="https://github.com/Pablusha/Twitter-Auto-Login" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 10 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-csharp.jpg'%}">
+</div>
+<div class="title">
+<h1>Form Üzerinde Trafik Işıkları Uygulaması</h1>
+</div>
+<div class="aciklama">
+<p>C# kullanarak form uygulaması üzerinde bir trafik ışıkları çalışması yaptım.</p>
+<a href="https://github.com/Pablusha/Traffic-Lights" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+<!-- Card 11 -->
+<div class="cards">
+<div class="image">
+<img src="{% static 'images/card-csharp.jpg'%}">
+</div>
+<div class="title">
+<h1>Form Üzerinde Kronometre Uygulaması</h1>
+</div>
+<div class="aciklama">
+<p>C# kullanarak bir form uygulaması üzerinde kronometre yaptım.</p>
+<a href="https://github.com/Pablusha/Stop-Watch" target="_blank"><button>Projeye gitmek için..</button></a>
+</div>
+</div>
+</div>
+</body>
+</html>
